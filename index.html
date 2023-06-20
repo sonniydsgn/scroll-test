@@ -3,16 +3,44 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
   <title>Тест анимации при скролле</title>
 </head>
 <body>
-  <h1>hello</h1>
+  <div class="container">
+    <h1 class="title">Тестовый прототип анимации</h1>
+    <div class="scroll-container">
+      <div class="img">
+        <img class="top" src="img/top.png" alt="">
+        <img class="middle-cut" src="img/middle-cut.png" alt="">
+        <img class="bottom" src="img/bottom.png" alt="">
+        <img class="middle" src="img/middle.png" alt="">
+      </div>
+      <div class="card">
+        <div class="card__info">
+          <h2 class="card__title">№1</h2>
+          <p class="card__text">тут какой-то текст</p>
+        </div>
+        <div class="card__info">
+          <h2 class="card__title">№2</h2>
+          <p class="card__text">тут тоже какой-то текст</p>
+        </div>
+        <div class="card__info">
+          <h2 class="card__title">№3</h2>
+          <p class="card__text">и заключительный текст</p>
+        </div>
+      </div>
+    </div>
+  </div>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.0/gsap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.0/ScrollTrigger.min.js"></script>
 
   <!-- Идея: https://bobberbottle.com/catalog/flask/#benefits -->
   <!-- Документация к ScrollTrigger: https://greensock.com/docs/v3/Plugins/ScrollTrigger -->
   <!-- Пример анимации: https://codepen.io/lostsleepyboii/pen/jOQrqxe -->
+
+  <!-- Подлючение плагинов -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.0/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.0/ScrollTrigger.min.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>

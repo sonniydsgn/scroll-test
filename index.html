@@ -8,27 +8,25 @@
 </head>
 <body>
   <div class="container">
-    <h1 class="title">Тестовый прототип анимации</h1>
+    <h1 class="title">Тестовый прототип анимации зуба</h1>
     <div class="scroll-container">
       <div class="img">
-        <img class="top" src="img/top.png" alt="">
-        <img class="middle-cut" src="img/middle-cut.png" alt="">
-        <img class="bottom" src="img/bottom.png" alt="">
-        <img class="middle" src="img/middle.png" alt="">
+        <img class="img__top" src="img/top.png" alt="">
+        <div class="img__middle">
+          <img class="img__middle--top" src="img/middle-top.png" alt="">
+          <img class="img__middle--bottom" src="img/middle-bottom.png" alt="">
+        </div>
+        <!-- <img class="img__bottom" src="img/bottom.png" alt=""> -->
       </div>
       <div class="card">
-        <div class="card__info">
-          <h2 class="card__title">№1</h2>
-          <p class="card__text">тут какой-то текст</p>
-        </div>
-        <div class="card__info">
-          <h2 class="card__title">№2</h2>
-          <p class="card__text">тут тоже какой-то текст</p>
-        </div>
-        <div class="card__info">
-          <h2 class="card__title">№3</h2>
-          <p class="card__text">и заключительный текст</p>
-        </div>
+        <section class="card__info" id="section-1">
+          <h2 class="card__title">Установка импланта</h2>
+          <p class="card__text">Во время установки зубных имплантов металлический цилиндр в виде импланта устанавливается в кость челюсти или верхней челюсти</p>
+        </section>
+        <section class="card__info" id="section-2">
+          <h2 class="card__title">Установка коронки</h2>
+          <p class="card__text">После заживления импланта на него устанавливается абатмент, который держит зубную коронку или мост</p>
+        </section>
       </div>
     </div>
   </div>

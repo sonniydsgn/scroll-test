@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <title>Тест анимации при скролле</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.0/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.0/ScrollTrigger.min.js"></script>
 </head>
 <body>
   <div class="container">
@@ -16,29 +18,32 @@
           <img class="img__middle--top" src="img/middle-top.png" alt="">
           <img class="img__middle--bottom" src="img/middle-bottom.png" alt="">
         </div>
-        <!-- <img class="img__bottom" src="img/bottom.png" alt=""> -->
+        <img class="img__bottom" src="img/bottom.png" alt="">
       </div>
       <div class="card">
         <section class="card__info" id="section-1">
-          <h2 class="card__title">Установка импланта</h2>
-          <p class="card__text">Во время установки зубных имплантов металлический цилиндр в виде импланта устанавливается в кость челюсти или верхней челюсти</p>
+          <h2 class="card__title">Имплант</h2>
+          <p class="card__text">Металлический цилиндр, который устанавливается в кость челюсти или верхней челюсти для замены корня зуба</p>
         </section>
         <section class="card__info" id="section-2">
-          <h2 class="card__title">Установка коронки</h2>
-          <p class="card__text">После заживления импланта на него устанавливается абатмент, который держит зубную коронку или мост</p>
+          <h2 class="card__title">Абатмент</h2>
+          <p class="card__text">Компонент, который устанавливается на имплант после его заживления и который держит зубную коронку или мост</p>
+        </section>
+        <section class="card__info" id="section-3">
+          <h2 class="card__title">Зубная коронка</h2>
+          <p class="card__text">Искусственный зуб, который устанавливается на абатмент для восстановления функции и эстетического вида зубной дуги</p>
+        </section>
+        <section class="card__info" id="section-4">
+          <h2 class="card__title">Установка импланта</h2>
+          <p class="card__text">Имплант устанавливается в кость челюсти. После заживления импланта на него устанавливается абатмент, который держит зубную коронку или мост</p>
         </section>
       </div>
     </div>
   </div>
-
+  <script src="script.js"></script>
 
   <!-- Идея: https://bobberbottle.com/catalog/flask/#benefits -->
   <!-- Документация к ScrollTrigger: https://greensock.com/docs/v3/Plugins/ScrollTrigger -->
   <!-- Пример анимации: https://codepen.io/lostsleepyboii/pen/jOQrqxe -->
-
-  <!-- Подлючение плагинов -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.0/gsap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.0/ScrollTrigger.min.js"></script>
-  <script src="script.js"></script>
 </body>
 </html>

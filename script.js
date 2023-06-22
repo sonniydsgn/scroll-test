@@ -61,7 +61,7 @@ if ( screen.width >= 800 ) {
     .to(".img__middle", {opacity: 1, display: 'block', ease: "power1.in"}, 5)
   
     // соединение
-    .to(".img__top", { y: -75 }, 7)
+    .to(".img__top", { y: -65 }, 7)
     .to(".img__middle--bottom", { opacity: 0 }, 7)
-    .to(".img__bottom",  { y: 30 }, 7)
+    .to(".img__bottom",  { y: 40 }, 7)
 }

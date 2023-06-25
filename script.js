@@ -39,11 +39,11 @@ cards.forEach((card, i) => {
 
 gsap.timeline({
   scrollTrigger: {
-    trigger: ".scroll-wrapper",
-    start: "bottom bottom",
+    trigger: "#section-4",
+    start: "top top",
     end: "+=800",
     scrub: true,
-    pin: true,
+    pin: ".scroll-wrapper"
   }
 })
 
